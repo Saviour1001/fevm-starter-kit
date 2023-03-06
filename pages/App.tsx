@@ -20,8 +20,8 @@ function App() {
           clientId,
           chainConfig: {
             chainNamespace: CHAIN_NAMESPACES.OTHER,
-            chainId: "0x7ab7",
-            rpcTarget: "https://wallaby.node.glif.io/rpc/v0", // This is the public RPC we have added, please pass on your own endpoint while creating an app
+            chainId: "3141",
+            rpcTarget: "https://rpc.ankr.com/filecoin_testnet", // This is the public RPC we have added, please pass on your own endpoint while creating an app
           },
           uiConfig: {
             theme: "dark",

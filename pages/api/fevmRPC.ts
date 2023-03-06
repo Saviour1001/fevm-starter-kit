@@ -20,7 +20,7 @@ export default class FilecoinRpc {
 
   config = {
     // defaults to local as seen below
-    apiAddress: "https://wallaby.node.glif.io/rpc/v0",
+    apiAddress: "https://rpc.ankr.com/filecoin_testnet",
     token: this.lotusJWT,
   };
 
